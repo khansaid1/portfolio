@@ -13,7 +13,6 @@ import Education from '@/components/Education'
 const AnimatedNumbers=({value})=>{
 
     const ref= useRef(null);
-
     const montionValue= useMotionValue(0);
     const springValue= useSpring(montionValue, {duration: 3000})
     const isInView= useInView(ref,{once:true});
@@ -56,19 +55,18 @@ const about = () => {
                         </p>
                         <p className='my-4 font-medium'>
                         I'm in the process of mastering responsive design techniques. While I'm navigating this learning curve, I'm dedicated to creating websites that adapt seamlessly to different screen sizes, ensuring a consistent experience for users across devices.
-                        I'm eager to explore front-end frameworks like [mention any frameworks you're exploring, e.g., React, Angular, or Vue.js]. While I'm in the early stages of incorporating these into my projects, I'm excited about the potential they offer for streamlined and feature-rich web development.
+                        I'm eager to explore front-end frameworks like React, Nextjs, or Vue.js. While I'm in the early stages of incorporating these into my projects, I'm excited about the potential they offer for streamlined and feature-rich web development.
                         </p>
                         <p className='my-4 font-medium'>
                         As a junior developer, I understand the importance of collaboration. I'm enthusiastic about learning from experienced designers, developers, and mentors to enhance my skills and contribute effectively to team projects.
                         I thrive on challenges and approach problem-solving with a growth mindset. Every coding hurdle is an opportunity to learn and improve, and I'm excited about the journey of continuous growth in this dynamic field.
                         </p>
                         <p className='mt-4 font-medium'>
-                        While I'm early in my career, I've already had the chance to work on [mention any projects or assignments you've completed]. These experiences have allowed me to apply my skills, learn from real-world scenarios, and showcase my passion for crafting engaging user experiences.
+                        While I'm early in my career, I've already had the chance to work on e-commerce website. These experiences have allowed me to apply my skills, learn from real-world scenarios, and showcase my passion for crafting engaging user experiences.
                         I'm on the lookout for opportunities to contribute, learn, and grow as a front-end developer. Let's connect and explore the possibilities of creating impactful web solutions together!
                         Feel free to adapt this template to reflect your unique experiences, skills, and aspirations. The key is to convey your eagerness to learn, your current skill set, and your commitment to growth in the field.
                         </p>
                     </div>
-
                     <div className='relative col-span-3 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
                         <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'/>
                         <Image 
@@ -81,7 +79,6 @@ const about = () => {
                         33vw'
                         />
                     </div>
-
                     <div className='flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block font-bold text-7xl md:text-5xl sm:text-4xl xd:text-3xl'>
@@ -95,21 +92,11 @@ const about = () => {
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Satisfied Costumers</h2>
                         </div>
-                        {/* <div className='flex flex-col items-end justify-center xl:items-center'>
-                            <span className='inline-block font-bold text-7xl md:text-5xl sm:text-4xl xd:text-3xl'>
-                            <AnimatedNumbers value={50}/>+
-                            </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Awards Achieved</h2>
-                        </div> */}
                     </div>
-
                 </div>
-
                 <SmallServices/>
-
                 <Pricing/>
                 <Education/>
-                
             </Layout>
         </main>
    </>
