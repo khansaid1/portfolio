@@ -50,21 +50,21 @@ const about = () => {
                     <div className='flex flex-col items-start justify-start col-span-3 xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 md:self-center md:text-4xl'>About Me</h2>
                         <p className='font-medium'>
-                        Hello there! I'm an aspiring front-end developer eager to contribute my skills and creativity to the ever-evolving world of web development. Here's a glimpse into what I bring to the table:
-                        I've built a strong foundation in HTML and CSS, turning static designs into vibrant and user-friendly web interfaces. Ensuring clean and semantic code, I strive to create visually appealing layouts that resonate with users.
+                       {` Hello there! I'm an aspiring front-end developer eager to contribute my skills and creativity to the ever-evolving world of web development. Here's a glimpse into what I bring to the table:
+                        I've built a strong foundation in HTML and CSS, turning static designs into vibrant and user-friendly web interfaces. Ensuring clean and semantic code, I strive to create visually appealing layouts that resonate with users.`}
                         </p>
                         <p className='my-4 font-medium'>
-                        I'm in the process of mastering responsive design techniques. While I'm navigating this learning curve, I'm dedicated to creating websites that adapt seamlessly to different screen sizes, ensuring a consistent experience for users across devices.
-                        I'm eager to explore front-end frameworks like React, Nextjs, or Vue.js. While I'm in the early stages of incorporating these into my projects, I'm excited about the potential they offer for streamlined and feature-rich web development.
+                        {`I'm in the process of mastering responsive design techniques. While I'm navigating this learning curve, I'm dedicated to creating websites that adapt seamlessly to different screen sizes, ensuring a consistent experience for users across devices.
+                        I'm eager to explore front-end frameworks like React, Nextjs, or Vue.js. While I'm in the early stages of incorporating these into my projects, I'm excited about the potential they offer for streamlined and feature-rich web development.`}
                         </p>
                         <p className='my-4 font-medium'>
-                        As a junior developer, I understand the importance of collaboration. I'm enthusiastic about learning from experienced designers, developers, and mentors to enhance my skills and contribute effectively to team projects.
-                        I thrive on challenges and approach problem-solving with a growth mindset. Every coding hurdle is an opportunity to learn and improve, and I'm excited about the journey of continuous growth in this dynamic field.
+                        {`As a junior developer, I understand the importance of collaboration. I'm enthusiastic about learning from experienced designers, developers, and mentors to enhance my skills and contribute effectively to team projects.
+                        I thrive on challenges and approach problem-solving with a growth mindset. Every coding hurdle is an opportunity to learn and improve, and I'm excited about the journey of continuous growth in this dynamic field.`}
                         </p>
                         <p className='mt-4 font-medium'>
-                        While I'm early in my career, I've already had the chance to work on e-commerce website. These experiences have allowed me to apply my skills, learn from real-world scenarios, and showcase my passion for crafting engaging user experiences.
+                        {`While I'm early in my career, I've already had the chance to work on e-commerce website. These experiences have allowed me to apply my skills, learn from real-world scenarios, and showcase my passion for crafting engaging user experiences.
                         I'm on the lookout for opportunities to contribute, learn, and grow as a front-end developer. Let's connect and explore the possibilities of creating impactful web solutions together!
-                        Feel free to adapt this template to reflect your unique experiences, skills, and aspirations. The key is to convey your eagerness to learn, your current skill set, and your commitment to growth in the field.
+                        Feel free to adapt this template to reflect your unique experiences, skills, and aspirations. The key is to convey your eagerness to learn, your current skill set, and your commitment to growth in the field.`}
                         </p>
                     </div>
                     <div className='relative col-span-3 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
