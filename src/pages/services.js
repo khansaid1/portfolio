@@ -12,7 +12,7 @@ import pub from '../../public/images/yums.png'
 import sys from '../../public/images/calculator.png'
 import cases from '../../public/images/weatherapp.png'
 import casprm from '../../public/images/crudoperation.png'
-import scondlast from '../../public/images/scondlast.jpg'
+import scondlast from '../../public/images/aiproject.JPG'
 import last from '../../public/images/last.jpg'
 import { motion } from 'framer-motion'
 
@@ -160,13 +160,13 @@ const services = () => {
                       />
                     </div>
 
-                    {/* <div className='col-span-6 sm:col-span-12'>
+                     <div className='col-span-6 sm:col-span-12'>
                     <ServiceNormal
                       img={scondlast}
-                      price="450$"
-                      title="Systematic Publication & Mentoring"
+                      price="React.js, Tailwind,  CSS"
+                      title="React AI project"
                       />
-                    </div> */}
+                    </div> 
 {/* 
                     <div className='col-span-6 sm:col-span-12'>
                     <ServiceNormal
